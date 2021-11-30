@@ -1,0 +1,13 @@
+***Deploy Spring boot APP in External Tomcat Container
+
+Link: https://www.youtube.com/watch?v=IucUnTqJhiE&ab_channel=RamNJava
+
+***Steps
+-Package as war
+-Instruct inbuilt tomcat
+-run cmd: mvn clean install
+-check target folder and copy war file
+-paste war file in tomcat/webapps folder
+-Then, in tomcat/bin folder run cmd: catalina.bat run
+-check URI localhost/8080 in browser
+-Hit http://localhost:8080/manualrestart-0.0.1-SNAPSHOT/ (localhost+JAR_Name) to access ----> Example
